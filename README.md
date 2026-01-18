@@ -1,4 +1,4 @@
-#Sistem automat de hrănire (ESP32 + MQTT)
+# Sistem automat de hrănire (ESP32 + MQTT)
 
 Descriere
 Proiect IoT care simulează un sistem automat de hrănire folosind ESP32 și protocolul MQTT.
