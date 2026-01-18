@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "Adelina Salavastru",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": 160, "left": 260, "attrs": { "color": "red" } }
+  ],
+  "connections": [
+    [ "esp:GPIO2", "led1:A", "green", [ "v0" ] ],
+    [ "esp:GND.1", "led1:K", "black", [ "v0" ] ],
+
+    [ "esp:TX0", "$serialMonitor:RX", "green", [ "v0" ] ],
+    [ "esp:RX0", "$serialMonitor:TX", "green", [ "v0" ] ]
+  ]
+}
+
+
